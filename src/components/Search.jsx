@@ -21,13 +21,13 @@ function Search() {
           onChange={(e) => setInput(e.target.value)}
           type="text"
           value={input}
-        ></input>
+        />
       </div>
     </FormStyle>
   );
 }
 
-const FormStyle = styled.div`
+const FormStyle = styled.form`
   margin: 0rem 20rem;
 
   div {
